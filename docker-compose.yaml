@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  webapp:
+    image: hi1280/node-helloworld:0.0.1
+    ports:
+      - 3000:3000
+    environment:
+      - NODE_ENV=production
